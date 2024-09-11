@@ -3,7 +3,7 @@ public class Multiples {
         System.out.println(multiples());
             }
 
-    public static int multiples() {
+    public static String multiples() {
     int i = 1;
     int sum = 0;
 
@@ -13,7 +13,7 @@ public class Multiples {
         }
         i++;
     }
-    return sum;
+    return Integer.toString(sum);
     }
 }
 
